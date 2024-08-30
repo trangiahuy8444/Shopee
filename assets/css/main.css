@@ -258,6 +258,8 @@
   bottom: 0;
   left: 0;
   display: flex;
+  /* display: none; */
+  animation: fadeIn linear 0.5s;
 }
 
 .modal__overlay {
@@ -281,6 +283,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 12px;
+  margin-top: 12px;
 }
 
 .auth-form__heading {
@@ -361,4 +365,25 @@
 
 .auth-form__socials-title {
   margin: 0 24px;
+}
+
+/* Login Authen Help */
+
+.auth-form__help {
+  position: relative;
+  text-align: right;
+}
+.auth-form__help-link {
+  font-size: 1.4rem;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.auth-form__help-link--separate::after {
+  content: "";
+  position: absolute;
+  border-right: 1px solid;
+  border-color: #ccc;
+  height: 14px;
+  top: 0;
+  right: 80px;
 }
