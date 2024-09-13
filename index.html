@@ -148,11 +148,28 @@
                                 <a href="#" class="header__language-TA">English</a>
                             </div>
                         </li>
-                        <li class="header__navbar-item header__navbar-item--separate">
+                        <!-- <li class="header__navbar-item header__navbar-item--separate">
                             <a href="#" class="header__navbar-item-link header__navbar-item-link--bold ">Đăng ký</a>
                         </li>
                         <li class="header__navbar-item">
                             <a href="#" class="header__navbar-item-link header__navbar-item-link--bold">Đăng nhập</a>
+                        </li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-1/456784723_1189666335512702_4797092526471068636_n.jpg?stp=dst-jpg_s200x200&_nc_cat=110&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeH_xyb1ujRGR1ynY4CE9KSrX_jQAR5Zodhf-NABHlmh2O-Zyk_P0xM4OMfJ9BrnM0ZEfgOkMqwf0ju4KjvWIs7M&_nc_ohc=D4rcf8nu2rYQ7kNvgFKb8jA&_nc_ht=scontent.fsgn2-6.fna&oh=00_AYD_zqmaW9htq0MHCzUDWR4d3-hFfApI0Agrbtq6aKC_gQ&oe=66DCDEFC"
+                                alt="" class="header__navbar-user-avatar">
+                            <span class="header__navbar-user-name">huytran84444</span>
+
+                            <ul class="header__navbar-user-infor">
+                                <li class="header__navbar-infor-item">
+                                    <a href="#" class="header__navbar-user-link">Tài Khoản Của Tôi</a>
+                                </li>
+                                <li class="header__navbar-infor-item">
+                                    <a href="#" class="header__navbar-user-link">Đơn Mua</a>
+                                </li>
+                                <li class="header__navbar-infor-item">
+                                    <a href="#" class="header__navbar-user-link">Đăng xuất</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                     <!-- end right -->
@@ -191,13 +208,536 @@
                             </ul>
                         </div>
                     </div>
+                    <!-- cart layout -->
                     <div class="header__cart">
+                        <span class="header__cart-notice">3</span>
                         <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                        <!-- No cart: header__cart-list--no-cart -->
+                        <div class="header__cart-list">
+                            <img src="./assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+
+                            <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                            <ul class="header__list-item">
+                                <!-- cart item -->
+                                <li class="header__cart-item">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lm19iww18yqneb_tn"
+                                        alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Dầu Ăn Đậu Nành SIMPLY 1 lit</h5>
+                                            <div class="header__cart-item-priec-wrap">
+                                                <span class="header__cart-item-price">₫67.900</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-des">
+                                                Phân loại: Bạc
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lm19iww18yqneb_tn"
+                                        alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Dầu Ăn Đậu Nành SIMPLY 1 lit</h5>
+                                            <div class="header__cart-item-priec-wrap">
+                                                <span class="header__cart-item-price">₫67.900</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-des">
+                                                Phân loại: Bạc
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lm19iww18yqneb_tn"
+                                        alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Dầu Ăn Đậu Nành SIMPLY 1 lit</h5>
+                                            <div class="header__cart-item-priec-wrap">
+                                                <span class="header__cart-item-price">₫67.900</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-des">
+                                                Phân loại: Bạc
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="#" class="header__cart-view-cart btn btn--primary">Xem Giỏ Hàng</a>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </header>
-        <div class="container">
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list"></i>
+                                Danh Mục
+                            </h3>
+
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link ">Trang điểm mặt</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm môi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm mắt</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="header__navbar-icon fa-solid fa-chevron-down"></i>
+                                <!-- List Option -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">Giá: Thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item"></li>
+                                    <a href="#" class="select-input__link">Giá: Cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="#" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                        <i class="header__navbar-icon fa-solid fa-chevron-left"></i>
+                                    </a>
+                                    <a href="#" class="home-filter__page-btn">
+                                        <i class="header__navbar-icon fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="home__product">
+                            <div class="grid__row">
+                                <!-- product-item -->
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img"
+                                            style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lscndw3ovxqx90_tn.webp);">
+                                        </div>
+                                        <h4 class="home__product-item__name">Điện thoại Apple iPhone 15 Pro Max 256GB
+                                        </h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="home__product-item__like-icon-liked fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__solid">88 đã bán</span>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Apple</span>
+                                            <span class="home__product-item__origin-name">America</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img"
+                                            style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lscndw3ovxqx90_tn.webp);">
+                                        </div>
+                                        <h4 class="home__product-item__name">Điện thoại Apple iPhone 15 Pro Max 256GB
+                                        </h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="home__product-item__like-icon-liked fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__solid">88 đã bán</span>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Apple</span>
+                                            <span class="home__product-item__origin-name">America</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img"
+                                            style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lscndw3ovxqx90_tn.webp);">
+                                        </div>
+                                        <h4 class="home__product-item__name">Điện thoại Apple iPhone 15 Pro Max 256GB
+                                        </h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="home__product-item__like-icon-liked fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__solid">88 đã bán</span>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Apple</span>
+                                            <span class="home__product-item__origin-name">America</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img"
+                                            style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lscndw3ovxqx90_tn.webp);">
+                                        </div>
+                                        <h4 class="home__product-item__name">Điện thoại Apple iPhone 15 Pro Max 256GB
+                                        </h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="home__product-item__like-icon-liked fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__solid">88 đã bán</span>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Apple</span>
+                                            <span class="home__product-item__origin-name">America</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img"
+                                            style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lscndw3ovxqx90_tn.webp);">
+                                        </div>
+                                        <h4 class="home__product-item__name">Điện thoại Apple iPhone 15 Pro Max 256GB
+                                        </h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="home__product-item__like-icon-liked fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__solid">88 đã bán</span>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Apple</span>
+                                            <span class="home__product-item__origin-name">America</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid__row">
+                                <!-- product-item -->
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img"
+                                            style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lscndw3ovxqx90_tn.webp);">
+                                        </div>
+                                        <h4 class="home__product-item__name">Điện thoại Apple iPhone 15 Pro Max 256GB
+                                        </h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="home__product-item__like-icon-liked fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__solid">88 đã bán</span>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Apple</span>
+                                            <span class="home__product-item__origin-name">America</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img"
+                                            style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lscndw3ovxqx90_tn.webp);">
+                                        </div>
+                                        <h4 class="home__product-item__name">Điện thoại Apple iPhone 15 Pro Max 256GB
+                                        </h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="home__product-item__like-icon-liked fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__solid">88 đã bán</span>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Apple</span>
+                                            <span class="home__product-item__origin-name">America</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img"
+                                            style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lscndw3ovxqx90_tn.webp);">
+                                        </div>
+                                        <h4 class="home__product-item__name">Điện thoại Apple iPhone 15 Pro Max 256GB
+                                        </h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="home__product-item__like-icon-liked fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__solid">88 đã bán</span>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Apple</span>
+                                            <span class="home__product-item__origin-name">America</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img"
+                                            style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lscndw3ovxqx90_tn.webp);">
+                                        </div>
+                                        <h4 class="home__product-item__name">Điện thoại Apple iPhone 15 Pro Max 256GB
+                                        </h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="home__product-item__like-icon-liked fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__solid">88 đã bán</span>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Apple</span>
+                                            <span class="home__product-item__origin-name">America</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img"
+                                            style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lscndw3ovxqx90_tn.webp);">
+                                        </div>
+                                        <h4 class="home__product-item__name">Điện thoại Apple iPhone 15 Pro Max 256GB
+                                        </h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon fa-regular fa-heart"></i>
+                                                <i class="home__product-item__like-icon-liked fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__solid">88 đã bán</span>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Apple</span>
+                                            <span class="home__product-item__origin-name">America</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer class="footer">
         </footer>
